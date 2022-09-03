@@ -15,6 +15,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  .section-1 a {
+    text-decoration: none;
+    color: #a88a81; }
   .section-1 .redes {
     display: flex;
     justify-content: center;
@@ -33,3 +36,46 @@
       .section-1 .redes div img {
         height: 35px;
         width: 35px; }
+
+.contacto {
+  background-color: #a88a81;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 3px; }
+  .contacto img {
+    height: 35px;
+    width: 35px;
+    padding: 3px;
+    margin: 2px; }
+  .contacto span {
+    padding-right: 3px;
+    margin-right: 2px;
+    color: white;
+    font-weight: 300; }
+
+.contacto:hover {
+  background-color: #bda89f; }
+  .contacto:hover span {
+    color: #e4d0ca;
+    font-weight: 600; }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  background-color: #d2aa97de;
+  margin-top: 25px;
+  flex-wrap: wrap; }
+  footer .nav-footer {
+    display: flex; }
+    footer .nav-footer a {
+      text-decoration: none;
+      padding-inline: 8px;
+      color: white; }
+  footer .no-copy {
+    text-align: center; }
+    footer .no-copy span {
+      padding-inline: 8px;
+      color: white; }
