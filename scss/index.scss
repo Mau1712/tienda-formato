@@ -69,6 +69,7 @@
     display: flex;
     align-items: center;
     margin-top: 20px;
+    padding-inline: 10px;
 
     border-radius: 3px;
 
@@ -78,21 +79,26 @@
         width: 35px;
         padding: 3px;
         margin: 2px;
+        opacity: 0.5;
     }
 
     span {
         padding-right: 3px;
         margin-right: 2px;
         color: white;
-        font-weight: 300;
+        font-weight: 400;
     }
 }
 
 .contacto:hover {
     background-color: #bda89f;
+
+    img {
+        opacity: 1;
+    }
     
     span {
-        color: #e4d0ca;
+        color: #ecded9;
         font-weight: 600;
     }
 }
