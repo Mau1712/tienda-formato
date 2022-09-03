@@ -13,6 +13,14 @@
     padding: 0%;
 }
 
+.dropdown-menu {
+    background-color: #af958d;
+
+    a {
+        color: white;
+    }
+}
+
 .section-1 {
     margin-top: 80px;
 
@@ -119,3 +127,20 @@ footer {
         }
     }
 }
+
+@media screen and (max-width: 683px) {
+    footer {
+        height: 48px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 392px) {
+    footer {
+        a {
+            font-size: small;
+        }
+    }
+}
+
