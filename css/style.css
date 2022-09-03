@@ -65,13 +65,20 @@
     color: #e4d0ca;
     font-weight: 600; }
 
+.section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px; }
+  .section-2 img {
+    margin-right: 10px; }
+
 footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 40px;
   background-color: #d2aa97de;
-  margin-top: 25px;
   flex-wrap: wrap; }
   footer .nav-footer {
     display: flex; }
