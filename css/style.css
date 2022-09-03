@@ -1,0 +1,35 @@
+.navbar {
+  background-color: #d2aa978c; }
+  .navbar .offcanvas {
+    background-color: #d2aa978c !important; }
+
+.navbar-brand {
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Great Vibes', cursive;
+  font-size: 25px;
+  padding: 0%; }
+
+.section-1 {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .section-1 .redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 6px; }
+    .section-1 .redes div {
+      display: flex;
+      align-items: center;
+      padding: 6px; }
+      .section-1 .redes div a {
+        text-decoration: none; }
+      .section-1 .redes div .instagram-img {
+        height: 25px;
+        width: 25px;
+        margin-right: 3px; }
+      .section-1 .redes div img {
+        height: 35px;
+        width: 35px; }
